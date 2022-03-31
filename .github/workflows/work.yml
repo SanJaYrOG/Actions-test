@@ -2,6 +2,6 @@ name: Reusable Workflow user
 
 on: 
   workflow_dispatch
-
-Hello:
-  uses: SanJaYrOG/reusing-Workflows/.github/workflows/main.yml@main
+jobs:
+  Hello:
+    uses: SanJaYrOG/reusing-Workflows/.github/workflows/main.yml@main
